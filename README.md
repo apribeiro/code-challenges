@@ -1,1 +1,1 @@
-# code-challenges
+# Code Challenges
