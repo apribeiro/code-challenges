@@ -12,3 +12,24 @@ For example:
 Write an efficient algorithm for the following assumptions:
 * N is an integer within the range [1..100,000];
 * Each element of array A is an integer within the range [−1,000,000..1,000,000].
+
+### Solution
+
+```
+private static int Solution(int[] A)
+{
+    int num = 1;
+
+    if (A == null || A.Length == 0)
+        return num;
+
+    var set = new HashSet<int>(A);
+
+    while (set.Contains(num))
+    {
+        num++;
+    }
+
+    return num;
+}
+```
