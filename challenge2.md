@@ -1,3 +1,4 @@
+```
 public static int Solution(string S)
 {
     int max = 0;
@@ -13,3 +14,4 @@ public static int Solution(string S)
 
     return max;
 }
+```
