@@ -1,3 +1,4 @@
+```
 var result = [];
 var dictionary = {
 	'277': 'app',
@@ -22,3 +23,4 @@ for (var key in dictionary) {
 }
 
 return result.join();
+```
