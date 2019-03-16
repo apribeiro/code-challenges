@@ -1,0 +1,8 @@
+```
+SELECT d.name, COUNT(e.id) AS COUNT_OF_EMPLOYEES_IN_THE_DEPARTMENT
+FROM department AS d
+LEFT JOIN employee AS e
+ON d.id = e.dept_id
+GROUP BY d.name
+ORDER BY COUNT_OF_EMPLOYEES_IN_THE_DEPARTMENT DESC, d.name ASC
+```
